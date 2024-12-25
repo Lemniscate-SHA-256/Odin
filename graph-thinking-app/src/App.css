@@ -1,0 +1,80 @@
+/* App.css */
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .top-bar {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-bar .logo {
+    font-size: 1.5rem;
+  }
+  
+  .top-bar .user-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sidebar button {
+    padding: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sidebar button:hover {
+    background-color: #007A8D;
+  }
+  
+  .canvas {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .bottom-bar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .bottom-bar button {
+    padding: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .bottom-bar button:hover {
+    background-color: #007A8D;
+  }
+  
